@@ -1,0 +1,6 @@
+framework module Pods_HitMeUp {
+  umbrella header "Pods-HitMeUp-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,23 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F0322192C5C0237001B3C2B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F0322182C5C0236001B3C2B /* GoogleService-Info.plist */; };
+		1F03221E2C5C0F74001B3C2B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F03221D2C5C0F74001B3C2B /* Message.swift */; };
+		1F0322202C5C109C001B3C2B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F03221F2C5C109C001B3C2B /* RegisterViewController.swift */; };
+		1F0322222C5C10B0001B3C2B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0322212C5C10B0001B3C2B /* LoginViewController.swift */; };
+		1F0322242C5C10C1001B3C2B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0322232C5C10C1001B3C2B /* ChatViewController.swift */; };
+		1F0322262C5C1580001B3C2B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0322252C5C1580001B3C2B /* Constants.swift */; };
 		1F98FDAA2C59342B001CC8E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F98FDA92C59342B001CC8E7 /* AppDelegate.swift */; };
 		1F98FDAC2C59342B001CC8E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F98FDAB2C59342B001CC8E7 /* SceneDelegate.swift */; };
-		1F98FDAE2C59342B001CC8E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F98FDAD2C59342B001CC8E7 /* ViewController.swift */; };
+		1F98FDAE2C59342B001CC8E7 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F98FDAD2C59342B001CC8E7 /* WelcomeViewController.swift */; };
 		1F98FDB12C59342B001CC8E7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1F98FDB02C59342B001CC8E7 /* Base */; };
 		1F98FDB32C59342F001CC8E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F98FDB22C59342F001CC8E7 /* Assets.xcassets */; };
 		1F98FDB62C59342F001CC8E7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1F98FDB52C59342F001CC8E7 /* Base */; };
+		1F98FDC12C59386C001CC8E7 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F98FDC02C59386C001CC8E7 /* Roboto-Bold.ttf */; };
+		1F98FDC32C593873001CC8E7 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F98FDC22C593873001CC8E7 /* Roboto-Regular.ttf */; };
+		1F98FDC52C5938C6001CC8E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F98FDAF2C59342B001CC8E7 /* Main.storyboard */; };
+		1FE2DEE02C5D4860007AD021 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE2DEDF2C5D4860007AD021 /* MessageCell.xib */; };
+		1FE2DEE12C5D4860007AD021 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2DEDE2C5D4860007AD021 /* MessageCell.swift */; };
+		A149F391718415157250862F /* Pods_HitMeUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC19FA0ED8E1FF25C98AF8DA /* Pods_HitMeUp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F0322182C5C0236001B3C2B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1F03221D2C5C0F74001B3C2B /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		1F03221F2C5C109C001B3C2B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		1F0322212C5C10B0001B3C2B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1F0322232C5C10C1001B3C2B /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		1F0322252C5C1580001B3C2B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1F98FDA62C59342B001CC8E7 /* HitMeUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitMeUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F98FDA92C59342B001CC8E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F98FDAB2C59342B001CC8E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F98FDAD2C59342B001CC8E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F98FDAD2C59342B001CC8E7 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		1F98FDB02C59342B001CC8E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F98FDB22C59342F001CC8E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F98FDB52C59342F001CC8E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F98FDB72C59342F001CC8E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F98FDC02C59386C001CC8E7 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		1F98FDC22C593873001CC8E7 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		1FE2DEDE2C5D4860007AD021 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		1FE2DEDF2C5D4860007AD021 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		276939E27928BBEBCBAD1537 /* Pods-HitMeUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitMeUp.release.xcconfig"; path = "Target Support Files/Pods-HitMeUp/Pods-HitMeUp.release.xcconfig"; sourceTree = "<group>"; };
+		5D6E00372F456B453AA13812 /* Pods-HitMeUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitMeUp.debug.xcconfig"; path = "Target Support Files/Pods-HitMeUp/Pods-HitMeUp.debug.xcconfig"; sourceTree = "<group>"; };
+		DC19FA0ED8E1FF25C98AF8DA /* Pods_HitMeUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HitMeUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +56,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A149F391718415157250862F /* Pods_HitMeUp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F03221C2C5C0F2D001B3C2B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F03221D2C5C0F74001B3C2B /* Message.swift */,
+				1F0322252C5C1580001B3C2B /* Constants.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		1F98FD9D2C59342B001CC8E7 = {
 			isa = PBXGroup;
 			children = (
 				1F98FDA82C59342B001CC8E7 /* HitMeUp */,
 				1F98FDA72C59342B001CC8E7 /* Products */,
+				7036F6C6A4C14EF21C33BF8E /* Pods */,
+				C09A33B18111CCDA6BC23134 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +95,63 @@
 			children = (
 				1F98FDA92C59342B001CC8E7 /* AppDelegate.swift */,
 				1F98FDAB2C59342B001CC8E7 /* SceneDelegate.swift */,
-				1F98FDAD2C59342B001CC8E7 /* ViewController.swift */,
-				1F98FDAF2C59342B001CC8E7 /* Main.storyboard */,
+				1F98FDBF2C59381F001CC8E7 /* Fonts */,
+				1F03221C2C5C0F2D001B3C2B /* Models */,
+				1F98FDBD2C59363B001CC8E7 /* Views */,
+				1F98FDBE2C59364F001CC8E7 /* Controllers */,
 				1F98FDB22C59342F001CC8E7 /* Assets.xcassets */,
-				1F98FDB42C59342F001CC8E7 /* LaunchScreen.storyboard */,
 				1F98FDB72C59342F001CC8E7 /* Info.plist */,
+				1F0322182C5C0236001B3C2B /* GoogleService-Info.plist */,
 			);
 			path = HitMeUp;
+			sourceTree = "<group>";
+		};
+		1F98FDBD2C59363B001CC8E7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F98FDAF2C59342B001CC8E7 /* Main.storyboard */,
+				1F98FDB42C59342F001CC8E7 /* LaunchScreen.storyboard */,
+				1FE2DEDF2C5D4860007AD021 /* MessageCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1F98FDBE2C59364F001CC8E7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1FE2DEDE2C5D4860007AD021 /* MessageCell.swift */,
+				1F98FDAD2C59342B001CC8E7 /* WelcomeViewController.swift */,
+				1F03221F2C5C109C001B3C2B /* RegisterViewController.swift */,
+				1F0322212C5C10B0001B3C2B /* LoginViewController.swift */,
+				1F0322232C5C10C1001B3C2B /* ChatViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1F98FDBF2C59381F001CC8E7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1F98FDC02C59386C001CC8E7 /* Roboto-Bold.ttf */,
+				1F98FDC22C593873001CC8E7 /* Roboto-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7036F6C6A4C14EF21C33BF8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D6E00372F456B453AA13812 /* Pods-HitMeUp.debug.xcconfig */,
+				276939E27928BBEBCBAD1537 /* Pods-HitMeUp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C09A33B18111CCDA6BC23134 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC19FA0ED8E1FF25C98AF8DA /* Pods_HitMeUp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F98FDBA2C59342F001CC8E7 /* Build configuration list for PBXNativeTarget "HitMeUp" */;
 			buildPhases = (
+				56949DC8CFB734D97F10A04E /* [CP] Check Pods Manifest.lock */,
 				1F98FDA22C59342B001CC8E7 /* Sources */,
 				1F98FDA32C59342B001CC8E7 /* Frameworks */,
 				1F98FDA42C59342B001CC8E7 /* Resources */,
+				13E27E2B10274EDD2A749037 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +214,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F98FDC52C5938C6001CC8E7 /* Main.storyboard in Resources */,
+				1F0322192C5C0237001B3C2B /* GoogleService-Info.plist in Resources */,
 				1F98FDB32C59342F001CC8E7 /* Assets.xcassets in Resources */,
 				1F98FDB62C59342F001CC8E7 /* Base in Resources */,
+				1F98FDC32C593873001CC8E7 /* Roboto-Regular.ttf in Resources */,
+				1FE2DEE02C5D4860007AD021 /* MessageCell.xib in Resources */,
+				1F98FDC12C59386C001CC8E7 /* Roboto-Bold.ttf in Resources */,
 				1F98FDB12C59342B001CC8E7 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13E27E2B10274EDD2A749037 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HitMeUp/Pods-HitMeUp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HitMeUp/Pods-HitMeUp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HitMeUp/Pods-HitMeUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56949DC8CFB734D97F10A04E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HitMeUp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1F98FDA22C59342B001CC8E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F98FDAE2C59342B001CC8E7 /* ViewController.swift in Sources */,
+				1F0322222C5C10B0001B3C2B /* LoginViewController.swift in Sources */,
+				1F98FDAE2C59342B001CC8E7 /* WelcomeViewController.swift in Sources */,
+				1F0322202C5C109C001B3C2B /* RegisterViewController.swift in Sources */,
+				1F0322242C5C10C1001B3C2B /* ChatViewController.swift in Sources */,
+				1F03221E2C5C0F74001B3C2B /* Message.swift in Sources */,
 				1F98FDAA2C59342B001CC8E7 /* AppDelegate.swift in Sources */,
 				1F98FDAC2C59342B001CC8E7 /* SceneDelegate.swift in Sources */,
+				1F0322262C5C1580001B3C2B /* Constants.swift in Sources */,
+				1FE2DEE12C5D4860007AD021 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,12 +429,14 @@
 		};
 		1F98FDBB2C59342F001CC8E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D6E00372F456B453AA13812 /* Pods-HitMeUp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JB978B9B46;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HitMeUp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -300,11 +444,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.brittanyangelle.HitMeUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -315,12 +461,14 @@
 		};
 		1F98FDBC2C59342F001CC8E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 276939E27928BBEBCBAD1537 /* Pods-HitMeUp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JB978B9B46;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HitMeUp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -328,11 +476,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.brittanyangelle.HitMeUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

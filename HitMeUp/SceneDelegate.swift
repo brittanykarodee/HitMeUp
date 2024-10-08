@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  HitMeUp
 //
-//  Created by Brittany P Jenkins on 7/30/24.
+//  Created by Brittany P Jenkins
 //
 
 import UIKit
